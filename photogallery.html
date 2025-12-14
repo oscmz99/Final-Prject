@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscar Martinez | Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ledger&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-menu">
+            <a href="index.html" class="logo">Oscar Martinez</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="photogallery.html" class="active-link">Photo Gallery</a></li>
+                    <li><a href="published.html">Published Work</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="resume.html">My Resume</a></li>
+                </ul>
+            </nav>
+         </div>
+    </header>
+    <main>
+        <h1>Photo Gallery</h1>
+        <p>Just some collection of photos I've taken over the years</p>
+        <img id="current-image" src="images/Photo 1.jpg" alt="Gallery image">
+        <p id="image-caption">test</p>
+        <button class="carousel-button prev" onclick="changeImage(-1)">&#10094;</button>
+        <button class="carousel-button next" onclick="changeImage(1)">&#10095;</button>
+    </main>
+    <footer>copyright 2025 Oscar Martinez</footer>
+    <script src="myscript.js"></script>
+</body>
+</html>
